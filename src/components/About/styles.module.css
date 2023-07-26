@@ -1,0 +1,7 @@
+.title {
+    font-size: medium;
+}
+
+.contentText {
+    color: rgba(255, 255, 255, 0.5); /* O último valor (0.5) representa a opacidade */
+}

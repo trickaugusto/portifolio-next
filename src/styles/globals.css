@@ -1,4 +1,14 @@
 * {
-  background-color: #062B47;
+  background-color: #031524;
   color: #DBDBDB;
+}
+
+html {
+  margin: 1rem;
+  font-size: 16px;
+}
+
+.title-experience {
+  font-size: medium;
+  margin-top: 8rem;
 }
