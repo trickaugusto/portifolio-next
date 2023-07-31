@@ -10,6 +10,8 @@ const roboto = Roboto_Mono({
 })
 
 export default function Home() {
+  
+  // transformar em objeto pro Experience
   return (
     <>
       <Header />
@@ -38,7 +40,7 @@ export default function Home() {
         title={'Spartan Solucions - Europe'}
         subtitle={'Freelance'}
         description={`
-          Development pontual features, with PHP/Larevel.         
+          Development pontual features, with PHP/Laravel.         
         `}
         technologies={[
           'PHP/Laravel',

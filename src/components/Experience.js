@@ -1,5 +1,5 @@
-import Technologies from "../Technologies";
-import style from "./styles.module.css";
+import Technologies from "../components/Technologies";
+import style from '../styles/Experience.module.css'
 import { Roboto_Mono } from 'next/font/google'
 
 const roboto = Roboto_Mono({

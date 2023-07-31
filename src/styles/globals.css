@@ -1,9 +1,14 @@
-* {
-  background-color: #031524;
-  color: #DBDBDB;
+:root {
+  --primary-color: #DBDBDB;
+  --transparent: rgba(255, 255, 255, 0.5);
 }
 
-html {
+* {
+  background-color: #031524;
+  color: var(--primary-color);
+}
+
+body {
   margin: 1rem;
   font-size: 16px;
 }
@@ -18,10 +23,10 @@ html {
 }
 
 .technology {
-  color: rgb(94 234 212);
+  color: #5eead4;
   margin: 5px;
   padding: 6px 15px;
-  background-color: rgb(0, 54, 49);
+  background-color: #003631;
   border-radius: 20px;
   height: fit-content;
   width: fit-content;

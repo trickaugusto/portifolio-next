@@ -1,0 +1,26 @@
+/* styles.module.css */
+.header {
+    margin-bottom: 8rem; /* 32px em rem */
+  }
+  
+  .title {
+    font-weight: 700;
+  }
+  
+  .subtitle {
+    font-weight: 600;
+  }
+  
+  .socialIcons {
+    margin-top: 2rem; /* 32px em rem */
+  }
+  
+  .socialIcons > a {
+    margin-right: 1.25rem; /* 20px em rem */
+  }
+  
+  /* Estilos para telas grandes (largura maior que 1024px) */
+  @media (min-width: 1024px) {
+  
+  }
+  

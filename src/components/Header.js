@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from '../styles/Header.module.css'
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 export default function Header() {

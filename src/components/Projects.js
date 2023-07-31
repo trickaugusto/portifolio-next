@@ -1,5 +1,5 @@
-import Technologies from "../Technologies";
-import style from "./styles.module.css";
+import Technologies from "../components/Technologies";
+import style from '../styles/Projects.module.css'
 
 export default function Projects({
     title,
