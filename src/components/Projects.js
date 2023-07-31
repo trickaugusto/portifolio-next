@@ -4,7 +4,8 @@ import style from '../styles/Projects.module.css'
 export default function Projects({
     title,
     description,
-    technologies
+    technologies,
+    link
 }) {
     return (
 
@@ -13,7 +14,7 @@ export default function Projects({
             <p className="transparent">{description}</p>
 
             <div className={style.divlink}>
-                <a href="https://github.com/trickaugusto/nest-api" className={style.link}>Github project</a>
+                <a href={link} className={style.link}>Github project</a>
             </div>
 
             <Technologies
