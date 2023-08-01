@@ -9,7 +9,7 @@ export default function Projects({
 }) {
     return (
 
-        <div className='section'>
+        <div className={style.section}>
             <h3 className={style.title}>{title}</h3>
             <p className="transparent">{description}</p>
 

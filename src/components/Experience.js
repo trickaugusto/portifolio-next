@@ -10,7 +10,7 @@ const roboto = Roboto_Mono({
 
 export default function Experience({ years, title, subtitle, description, technologies }) {
     return (
-        <div className='section'>
+        <div className={style.section} >
 
             <h3 className={`
                 transparent 
