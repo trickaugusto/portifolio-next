@@ -6,6 +6,7 @@
 * {
   background-color: #031524;
   color: var(--primary-color);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,22 +21,6 @@ body {
 
 .transparent {
   color: rgba(255, 255, 255, 0.5);
-}
-
-.technology {
-  color: #5eead4;
-  margin: 5px;
-  padding: 6px 15px;
-  background-color: #003631;
-  border-radius: 20px;
-  height: fit-content;
-  width: fit-content;
-  font-size: 15px;
-}
-
-.listTec {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .section {

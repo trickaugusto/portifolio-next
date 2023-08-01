@@ -5,6 +5,7 @@
   
   .title {
     font-weight: 700;
+    margin-top: 0px;
   }
   
   .subtitle {
@@ -18,9 +19,50 @@
   .socialIcons > a {
     margin-right: 1.25rem; /* 20px em rem */
   }
-  
+
+  .buttonsSection {
+    display: none;
+  }
+
   /* Estilos para telas grandes (largura maior que 1024px) */
   @media (min-width: 1024px) {
-  
+    .header {
+      position: fixed;
+      margin-top: 0px;
+      margin-left: 6rem;
+      height: 100%;
+    }
+      
+    .buttonsSection {
+      margin-top: 50px;
+      display: grid;
+    }
+    
+    .socialIcons {
+      margin-top: 100%;
+    }
+
   }
   
+.navIndicator {
+  margin-top: 10px;
+  display: flex;
+  text-decoration: none;
+  color: var(--transparent);
+  width: fit-content;
+}
+
+.navIndicator:hover {
+  color: white;
+}
+
+.navIndicator > hr {
+  width: 30px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navIndicator:hover > hr {
+  width: 50px; 
+  color: white;
+}

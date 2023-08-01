@@ -7,6 +7,21 @@ export default function Header() {
             <h1 className={styles.title}>Patrick Augusto</h1>
             <h3 className={styles.subtitle}>Full-stack developer at Zhavia Tecnologia</h3>
 
+            <div className={styles.buttonsSection}>
+                <a href='#about' className={styles.navIndicator}>                    
+                    <hr />
+                    About
+                </a> 
+                <a href='#experiences' className={styles.navIndicator}>                    
+                    <hr />
+                    Experience
+                </a> 
+                <a href='#projects' className={styles.navIndicator}>                    
+                    <hr />
+                    Projects
+                </a> 
+            </div>
+            
             <div className={styles.socialIcons}>
                 <a href="https://github.com/trickaugusto" target="_blank" rel="noopener noreferrer">
                     <FaGithub size={24} />
@@ -18,6 +33,7 @@ export default function Header() {
                     <FaLinkedin size={24} />
                 </a>
             </div>
+
         </div>
     );
 }

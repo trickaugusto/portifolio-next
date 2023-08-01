@@ -3,6 +3,7 @@ import About from '@/components/About'
 import Experience from '@/components/Experience'
 import { Roboto_Mono } from 'next/font/google'
 import Projects from '@/components/Projects'
+import homeStyle from '../styles/Home.module.css'
 
 const roboto = Roboto_Mono({
   weight: ['400'],
@@ -78,32 +79,42 @@ export default function Home() {
   return (
     <>
       <Header />
-      <About />
 
-      <h2 className={`${roboto.className} title-experience`}>EXPERIENCE</h2>
+      <div className={homeStyle.bodyContent}>
+        <div id="about">
+          <About/>
+        </div>
 
-      {experiences.map((experience) => (
-        <Experience
-          key={experience}
-          years={experience.years}
-          title={experience.title}
-          subtitle={experience.subtitle}
-          description={experience.description}
-          technologies={experience.technologies}
-        />
-      ))}
+        <h2 className={`${roboto.className} title-experience`}>EXPERIENCE</h2>
 
-      <h2 className={`${roboto.className} title-experience`}>PROJECTS</h2>
+        <div id="experiences">
+          {experiences.map((experience) => (
+            <Experience
+              key={experience}
+              years={experience.years}
+              title={experience.title}
+              subtitle={experience.subtitle}
+              description={experience.description}
+              technologies={experience.technologies}
+            />
+          ))}
 
-      {projects.map((project) => (
-        <Projects
-          key={project}
-          title={project.title}
-          description={project.description}
-          technologies={project.technologies}
-          link={project.link}
-        />
-      ))}
+        </div>
+
+        <h2 className={`${roboto.className} title-experience`}>PROJECTS</h2>
+
+        <div id="projects">
+          {projects.map((project) => (
+            <Projects
+              key={project}
+              title={project.title}
+              description={project.description}
+              technologies={project.technologies}
+              link={project.link}
+            />
+          ))}
+        </div>
+      </div>
 
     </>
   )

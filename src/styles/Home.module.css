@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+    .bodyContent {
+      margin-left: 50%;
+      margin-top: 10%;
+      margin-right: 8%
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .bodyContent {
+      margin-left: 0%;
+    }
+  }
+  
