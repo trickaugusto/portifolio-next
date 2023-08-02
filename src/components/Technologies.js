@@ -5,8 +5,8 @@ export default function Technologies({ technologies }) {
         <div>
             {technologies.length > 0 && (
                 <div className={styles.listTec}>
-                    {technologies.map((technology) => (
-                        <a key={technology} className={styles.technology}>
+                    {technologies.map((technology, index) => (
+                        <a key={index} className={styles.technology}>
                             {technology}
                         </a>
                     ))}

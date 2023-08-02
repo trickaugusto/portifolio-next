@@ -1,14 +1,18 @@
 @media (min-width: 1024px) {
-    .bodyContent {
-      margin-left: 50%;
-      margin-top: 10%;
-      margin-right: 8%
-    }
+  .bodyContent {
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-right: 8%
   }
-  
-  @media (max-width: 1024px) {
-    .bodyContent {
-      margin-left: 0%;
-    }
+}
+
+@media (max-width: 1024px) {
+  .bodyContent {
+    margin-left: 0%;
   }
-  
+}
+
+.titleExperience {
+  font-size: x-large;
+  margin-top: 8rem;
+}

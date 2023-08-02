@@ -8,11 +8,18 @@
 
 .divlink {
     margin-bottom: 20px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
 }
 
 .link {
     font-weight: 500;
     text-decoration: none;
+}
+
+.icon {
+    margin-left: 8px;
 }
 
 .section {

@@ -78,19 +78,22 @@ export default function Home() {
 
   return (
     <>
+      <a id="top-page"></a>
       <Header />
 
       <div className={homeStyle.bodyContent}>
-        <div id="about">
+        <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>ABOUT</h2>
+
+        <div>
           <About/>
         </div>
 
-        <h2 className={`${roboto.className} title-experience`}>EXPERIENCE</h2>
+        <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>EXPERIENCE</h2>
 
         <div id="experiences">
-          {experiences.map((experience) => (
+          {experiences.map((experience, index) => (
             <Experience
-              key={experience}
+              key={index}
               years={experience.years}
               title={experience.title}
               subtitle={experience.subtitle}
@@ -101,12 +104,12 @@ export default function Home() {
 
         </div>
 
-        <h2 className={`${roboto.className} title-experience`}>PROJECTS</h2>
+        <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>PROJECTS</h2>
 
         <div id="projects">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <Projects
-              key={project}
+              key={index}
               title={project.title}
               description={project.description}
               technologies={project.technologies}

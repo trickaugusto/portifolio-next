@@ -9,7 +9,6 @@ const roboto = Roboto_Mono({
 export default function About() {
     return (
         <>
-            <h2 className={`${roboto.className} ${styles.title}`}>ABOUT</h2>
             <p className={styles.contentText}>
                 Professional with nearly 2 years of experience in back-end development, using PHP/Laravel, MySQL, and Git. I hold a degree in Digital Marketing, which served as the catalyst for my journey into software development. Currently, I work as a Full-stack developer, proficient in Angular and PHP.
                 <br />
