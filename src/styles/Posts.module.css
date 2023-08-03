@@ -1,0 +1,26 @@
+.section {
+    display: flex;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.year {
+    color: var(--transparent);
+    font-size: larger;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.title {
+    margin-top: -12px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.section:hover {
+    cursor: pointer;
+}

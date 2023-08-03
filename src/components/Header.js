@@ -26,6 +26,11 @@ export default function Header() {
                     <hr />
                     Projects
                 </a>
+
+                <a href='#posts' className={styles.navIndicator}>
+                    <hr />
+                    Posts
+                </a>
             </div>
 
             <div className={styles.socialIcons}>

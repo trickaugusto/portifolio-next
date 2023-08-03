@@ -4,6 +4,7 @@ import Experience from '@/components/Experience'
 import { Roboto_Mono } from 'next/font/google'
 import Projects from '@/components/Projects'
 import homeStyle from '../styles/Home.module.css'
+import Posts from '@/components/Posts'
 
 const roboto = Roboto_Mono({
   weight: ['400'],
@@ -76,6 +77,33 @@ export default function Home() {
     },
   ]
 
+  const posts = [
+    {
+      year: 2022,
+      title: "Chegando a dois anos como dev, o que aprendi?",
+      link: "https://medium.com/@trickaugusto2/chegando-a-dois-anos-como-dev-o-que-aprendi-d007d1a1a5a2",
+      image: "/cafe.png"
+    },
+    {
+      year: 2022,
+      title: "Lógica e algoritmos!",
+      link: "https://trickaugusto2.medium.com/l%C3%B3gica-e-algoritmos-35a0f7ad9d24",
+      image: "/logicaalgoritmo.jpeg"
+    },
+    {
+      year: 2021,
+      title: "Heranças Horizontais com Traits em PHP",
+      link: "https://trickaugusto2.medium.com/heran%C3%A7as-horizontais-com-traits-em-php-8a31929da2fd",
+      image: "/traitsphp.png"
+    },
+    {
+      year: 2021,
+      title: "Interfaces de Objetos",
+      link: "https://trickaugusto2.medium.com/interfaces-de-objetos-a54ae75dee94",
+      image: "/interface.png"
+    },
+  ]
+
   return (
     <>
       <a id="top-page"></a>
@@ -85,7 +113,7 @@ export default function Home() {
         <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>ABOUT</h2>
 
         <div>
-          <About/>
+          <About />
         </div>
 
         <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>EXPERIENCE</h2>
@@ -117,6 +145,25 @@ export default function Home() {
             />
           ))}
         </div>
+
+        <h2 className={`${roboto.className} ${homeStyle.titleExperience}`}>POSTS</h2>
+
+        <div id="posts">
+          {posts.map((post, index) => (
+            <Posts
+              key={index}
+              year={post.year}
+              title={post.title}
+              link={post.link}
+              image={post.image}
+            />
+          ))}
+
+          <a className={homeStyle.seeMore} href="https://trickaugusto2.medium.com/">
+            <h3>See more posts!</h3>
+          </a>
+        </div>
+
       </div>
 
     </>

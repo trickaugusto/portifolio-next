@@ -16,3 +16,13 @@
   font-size: x-large;
   margin-top: 8rem;
 }
+
+.seeMore {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.seeMore > h3 {
+  margin-right: 10px;
+}
