@@ -8,7 +8,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: 'Trick Augusto',
+  title: 'Patrick Augusto',
   description: 'Portfolio by @trickaugusto',
 };
 
