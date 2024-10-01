@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <div className={styles.header}>
             <h1 className={styles.title}>Patrick Augusto</h1>
-            <h3 className={styles.subtitle}>Full-stack developer at Zhavia Tecnologia</h3>
+            <h3 className={styles.subtitle}>Full-stack developer assigned to Globo/Globoplay</h3>
 
             <div className={styles.buttonsSection}>
                 <a href='#' className={styles.navIndicator} onClick={() => window.scrollTo(0, 0)}>

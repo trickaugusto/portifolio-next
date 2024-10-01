@@ -15,7 +15,30 @@ export default function Home() {
 
   const experiences = [
     {
-      years: 'Mar 2023 - Present',
+      years: 'Ago 2024 - Present',
+      title: 'Storm Group / Globo',
+      subtitle: 'Full stack developer',
+      description: `
+        Development and maintenance of web applications using React and NodeJS. Integration of GraphQL APIs to implement communication-related functionalities through the platform.
+      `,
+      technologies: [
+        'React',
+        'NodeJS',
+        'Jest',
+        'GraphQL',
+      ],
+    },
+    {
+      years: 'Jan 2023 - Present',
+      title: 'Spartan Solucions - Europe',
+      subtitle: 'Freelance',
+      description: '    Development pontual features, with PHP/Laravel.',
+      technologies: [
+        'PHP/Laravel',
+      ],
+    },
+    {
+      years: 'Mar 2023 - Ago 2024',
       title: 'Zhavia tecnologia',
       subtitle: 'Full stack developer',
       description: `
@@ -27,15 +50,6 @@ export default function Home() {
         'Next',
         'Nest',
         'Mysql'
-      ],
-    },
-    {
-      years: 'Jan 2023 - Present',
-      title: 'Spartan Solucions - Europe',
-      subtitle: 'Freelance',
-      description: '    Development pontual features, with PHP/Laravel.',
-      technologies: [
-        'PHP/Laravel',
       ],
     },
     {
