@@ -19,7 +19,11 @@ export default function Home() {
       title: 'Storm Group / Globo',
       subtitle: 'Full stack developer',
       description: `
-        Development and maintenance of web applications using React and NodeJS. Integration of GraphQL APIs to implement communication-related functionalities through the platform.
+        - Collaborating on the development and optimization of the Globoplay platform, one of the largest streaming services in Latin America.\n
+        - Building scalable and efficient applications using Node.js, React, and GraphQL, ensuring high performance and excellent user experience.\n
+        - Designing and implementing solutions to enhance the platform's functionality, reliability, and maintainability.\n
+        - Working closely with cross-functional teams to deliver innovative features and improve the platform's architecture.\n
+        - Leveraging best practices in software development, including testing, continuous integration, and code review, to maintain code quality and scalability.
       `,
       technologies: [
         'React',
@@ -29,7 +33,7 @@ export default function Home() {
       ],
     },
     {
-      years: 'Jan 2023 - Present',
+      years: 'Jan 2023 - nov de 2024',
       title: 'Spartan Solucions - Europe',
       subtitle: 'Freelance',
       description: '    Development pontual features, with PHP/Laravel.',
@@ -42,8 +46,11 @@ export default function Home() {
       title: 'Zhavia tecnologia',
       subtitle: 'Full stack developer',
       description: `
-      Development and maintenance of web applications using Angular and PHP /Yii. Integration of WhatsApp APIs, both official and unofficial, to implement communication-related functionalities through the platform.
-      Collaboration in agile teams, participating in planning meetings, code reviews, and following agile development methodologies.`,
+      - Full-Stack Development: Designed, developed, and maintained a church management software used daily by thousands of users, covering features like finances, group management, events, member tracking, and registrations. \n
+      - System Ownership: Managed the platform end-to-end, including the core web system (Angular, PHP/Yii, NestJS, NextJS), custom church websites, and a cross-platform mobile app built with Ionic and PWAs. \n
+      - API Integration: Enhanced communication features through integration with official and unofficial WhatsApp APIs. \n
+      - Agile Collaboration: Worked closely with teams and stakeholders, participating in agile ceremonies and delivering tailored solutions to meet specific client needs. \n
+      - Performance and Scalability: Ensured high availability and optimized performance to support a growing user base.`,
       technologies: [
         'Angular',
         'PHP/Yii',
@@ -57,10 +64,10 @@ export default function Home() {
       title: 'Webhelp Brasil',
       subtitle: 'Backend Developer',
       description: `
-      PHP Back-end Programmer, specializing in API integrations using SOAP and REST, with a keen eye for troubleshooting existing code.
-      Responsible for leading a team that provides support and analysis for the system in production, managing the flow of tasks related to these specific analyses using Kanban, identifying errors/improvements, and expediting resolutions.
-      Mentor new developers joining the team, providing training on the daily tools and, depending on the developer's level, offering guidance on programming topics in general.
-      Act as a Tech Writer, responsible for creating technical documentation, both for internal and external purposes.
+      - PHP Back-end Programmer, specializing in API integrations using SOAP and REST, with a keen eye for troubleshooting existing code. \n
+      - Responsible for leading a team that provides support and analysis for the system in production, managing the flow of tasks related to these specific analyses using Kanban, identifying errors/improvements, and expediting resolutions. \n
+      - Mentor new developers joining the team, providing training on the daily tools and, depending on the developer's level, offering guidance on programming topics in general. \n
+      - Act as a Tech Writer, responsible for creating technical documentation, both for internal and external purposes.
     `,
       technologies: [
         'PHP/Laravel',
